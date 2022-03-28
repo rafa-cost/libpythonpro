@@ -9,7 +9,7 @@ def buscar_avatar(usuario):
     :return: str com o link do avatar
     """
     url = f'https://api.github.com/users/{usuario}'
-    resp = requests.get(url)
+    resp = requests.get(url)99
     return resp.json()['avatar_url']
 
 if __name__ == '__main__':
