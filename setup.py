@@ -95,7 +95,6 @@ def find_package_data(
 
 
 PACKAGE = "libpythonpro"
-#NAME = PACKAGE
 NAME = 'rafa_libpythonpro'
 DESCRIPTION = "Módulo para exemplificar construção de projetos Python no curso PyTools"
 AUTHOR = "rafa-cost"
@@ -107,11 +106,11 @@ setup(
     name=NAME,
     version=VERSION,
     description=DESCRIPTION,
-    long_description=read('README.md'),
+    long_description='Qualquer coisa pode ser',
     long_description_content_type='text/markdown',
     author=AUTHOR,
     author_email=AUTHOR_EMAIL,
-    license='GNU Affero General Public License v3 or later (AGPLv3+)',
+    license='GNU AFFERO GENERAL PUBLIC LICENSE',
     url=URL,
     packages=find_packages(exclude=["tests.*", "tests"]),
     package_data=find_package_data(PACKAGE, only_in_packages=False),
@@ -122,7 +121,6 @@ setup(
         "License :: OSI Approved :: GNU Affero General Public License v3 or later (AGPLv3+)",
         "Operating System :: OS Independent",
         "Programming Language :: Python",
-        "Programming Language :: Python :: 3.9",
         "Framework :: Pytest",
     ],
     install_requires=[
