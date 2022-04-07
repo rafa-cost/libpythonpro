@@ -3,6 +3,7 @@ Módulo para exemplificar construção de projetos Python no curso PyTools
 
 Nesse curso é ensinado como contribuir com projetos de código aberto
 
+
 [![Build Status](https://app.travis-ci.com/rafa-cost/libpythonpro-1.svg?branch=master)](https://app.travis-ci.com/rafa-cost/libpythonpro-1)
 
 Suportada versão 3 de Python
