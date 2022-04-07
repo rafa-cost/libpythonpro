@@ -95,7 +95,7 @@ def find_package_data(
 
 
 PACKAGE = "libpythonpro"
-NAME = 'rafa_libpythonpro'
+NAME = 'ra_libpythonpro'
 DESCRIPTION = "Módulo para exemplificar construção de projetos Python no curso PyTools"
 AUTHOR = "rafa-cost"
 AUTHOR_EMAIL = "silva.rafa@hotmail.com"
