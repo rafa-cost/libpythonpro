@@ -135,4 +135,5 @@ setup(
         'requests'
     ],
     zip_safe=False,
+
 )
