@@ -32,7 +32,7 @@ def test_qde_de_spam(sessao, usuarios):
     )
     assert len(usuarios) == enviador.enviar.call_count
 
-
+#essa função é para contagem de chamadas
 def test_parametros_de_spam(sessao):
     usuario = Usuario(nome='Renzo', email='renzo@python.pro.br')
     sessao.salvar(usuario)

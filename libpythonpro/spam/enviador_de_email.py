@@ -6,3 +6,4 @@ class Enviador:
 
 class EmailInvalido(Exception):
     pass
+#classe enviador com seu metodo enviar e seus atributos, e a classe email invalido

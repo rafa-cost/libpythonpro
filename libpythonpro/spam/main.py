@@ -11,3 +11,5 @@ class EnviadorDeSpam:
                 assunto,
                 corpo
             )
+#classe enviador de spam , com seu metodo dunder init e seus atributos
+#classe enviar emails

@@ -1,6 +1,6 @@
 from time import sleep
 
-
+#banco de dados , com suas classes e metodos
 class Sessao:
     contador = 0
     usuarios = []
